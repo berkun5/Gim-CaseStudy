@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b97d093635a44408dcfdcea0a84436, type: 3}
+  m_Name: CurrencyData
+  m_EditorClassIdentifier: 
+  _addCurrencyAmount: 100
+  _gameplayWindowCurrencies: 000000000100000002000000
+  _allCurrencyProperties:
+  - _currencyType: 0
+    _currencyColor: {r: 1, g: 0.68683195, b: 0, a: 1}
+    _currencyIcon: {fileID: 21300000, guid: f057f72c69547de44bfacc6663ef83c4, type: 3}
+  - _currencyType: 1
+    _currencyColor: {r: 0, g: 0.4764049, b: 1, a: 1}
+    _currencyIcon: {fileID: 21300000, guid: d3ac880cd7065c54da66c280293b30fc, type: 3}
+  - _currencyType: 2
+    _currencyColor: {r: 1, g: 0.25943398, b: 0.62090075, a: 1}
+    _currencyIcon: {fileID: 21300000, guid: 92bf7f6ae675e4b4fa1260a8ea85c01f, type: 3}

@@ -96,9 +96,11 @@ namespace Gimica.ProblemOne
             }
 
             if (MinMoveDistanceThreshold <= 0)
+#pragma warning disable CS0162 // Unreachable code detected
             {
                 Debug.LogError($"{gameObject.name} : Mover MinMoveDistanceThreshold is a negative value. Please fix.");
             }
+#pragma warning restore CS0162 // Unreachable code detected
 #endif
         }
     }
