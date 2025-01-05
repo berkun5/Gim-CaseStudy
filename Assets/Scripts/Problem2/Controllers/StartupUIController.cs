@@ -1,7 +1,5 @@
 namespace Gimica.ProblemTwo
 {
-    using UnityEngine;
-    
     public class StartupUIController : ControllerBase
     {
         private readonly CurrencyData _currencyData;
@@ -21,22 +19,6 @@ namespace Gimica.ProblemTwo
             base.OnInit();
             ShowGameplayWindow();
         }
-
-        protected override void OnUpdate()
-        {
-            base.OnUpdate();
-
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                ShowGameplayWindow();
-            }
-
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                _uiModel.Hide<GameplayWindow>();
-            }
-        }
-        
 
         private void ShowGameplayWindow()
         {
